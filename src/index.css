@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --light-font-color: whitesmoke;
+    --dark-font-color: #302F2F;
+    --fixed-dark-font-color: #302F2F;
+    --fixed-light-background-color:#FFFFFF;
+    --light-background-color:  #E5E5E5;
+    --white-background-color: #FFFFFF;
+    --grey-background-color: #9F9F9F;
+    --shadow-color: rgba(0, 0, 0, 0.15);
+    --red-font-color: rgba(254, 25, 54, 1);
+    --red-button-color: rgba(217, 63, 63, 1);
+    --white-button-color: rgba(255, 255, 255, 1);
+    --black-footer-color: rgba(12, 12, 12, 1);
+    --red-footer-color: rgba(221, 26, 26, 1);
+    --pagination-font-colot: #212121;
+} 
+/*! Reste  */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-background-color);
+    color:var(--dark-font-color);
+}
+/* DARK MODE */
+body.dark {
+    --light-background-color: rgba(12, 12, 12, 1);
+    --dark-font-color: whitesmoke;
+    --white-background-color:#a9a9a9;
+}
+h1, h2, h3, h4, p, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+    padding-left: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+button {
+    border: non;
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+}
+input {
+    outline: 0;
+}
